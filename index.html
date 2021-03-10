@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <!-- Button -->
+<div class="page-wrapper">
+  <a class="btn trigger" href="#">click me</a>
+</div>
+
+<!-- Modal -->
+<div class="modal-wrapper">
+  <div class="modal">
+    <div class="head">
+      <a class="btn-close trigger" href="#">
+        <i class="" aria-hidden="true">&times;</i>
+      </a>
+    </div>
+    <div class="content">
+        <div class="modal-title">
+          <h1>Shopping list</h1>
+        </div>
+        <div class="shopping-cart">
+
+          <div class="column-labels">
+            <label class="product-image">Image</label>
+            <label class="product-details">Movie</label>
+            <label class="product-removal">Remove</label>
+            <label class="product-line-price">Total</label>
+          </div>
+
+          <div class="product">
+            <div class="product-image">
+              <img src="" alt="movie">
+            </div>
+            <div class="product-details">
+              <div class="product-title">Title</div>
+              <p class="product-description">Description text example</p>
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">25.98</div>
+          </div>
+
+          <div class="totals">
+            <div class="totals-item">
+              <label>Subtotal</label>
+              <div class="totals-value" id="cart-subtotal">71.97</div>
+            </div>
+            <div class="totals-item">
+              <label>Tax</label>
+              <div class="totals-value" id="cart-tax">3.60</div>
+            </div>
+            <div class="totals-item totals-item-total">
+              <label>Total</label>
+              <div class="totals-value" id="cart-total">90.57</div>
+            </div>
+          </div>    
+          <button class="checkout">Checkout</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
